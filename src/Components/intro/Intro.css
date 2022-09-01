@@ -14,6 +14,7 @@
 
 .intro-right{
     flex: 1;
+    position: relative;
 }
 
 .left-wrapper{
@@ -69,6 +70,18 @@
 .i-description{
     margin-top: 20px;
 }
-.right-wrapper{
-
+.i-right-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+.i-right-bg{
+width: 100%;
+height: 100%;
+background-color: #59b256;
+clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+position: absolute;
+top: 0;
+right: 0;
 }
