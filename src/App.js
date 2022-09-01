@@ -1,9 +1,10 @@
+import Intro from "./Components/intro/Intro";
 
 
 function App() {
   return (
     <div className="App">
-      Welcome
+      <Intro />
     </div>
   );
 }
