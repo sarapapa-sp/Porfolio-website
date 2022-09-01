@@ -1,5 +1,7 @@
 import "./Intro.css";
 import Me from "../../img/sun.png";
+import { FontAwesomeIcon  } from "@fortawesome/react-fontawesome";
+import { faUpDown } from "@fortawesome/free-solid-svg-icons";
 const Intro = () => {
   return (
     <div className='intro'>
@@ -31,10 +33,11 @@ const Intro = () => {
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse voluptatibus dolorum dolore, dolorem qui totam nemo voluptate, enim praesentium consequatur eaque nam aspernatur modi repudiandae libero culpa, accusantium harum quam!
                 </div>
             </div>
+            <FontAwesomeIcon className="scroll-button" icon={faUpDown} />
         </div>
         <div className="intro-right">
             <div className="i-right-bg">
-                
+
             </div>
             <img className="i-right-img" src={Me} alt="" />
         </div>
