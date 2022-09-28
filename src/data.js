@@ -1,0 +1,22 @@
+export const products = [
+    {
+        id:1,
+        img:"https://i.ibb.co/kcSnQLc/hotel2.png",
+        link:"https://github.com/sarapapa-sp/Booking_App",
+    },
+    {
+        id:2,
+        img:"https://i.ibb.co/kcSnQLc/hotel2.png",
+        link:"https://github.com/sarapapa-sp/Booking_App",
+    },
+    {
+        id:3,
+        img:"https://i.ibb.co/kcSnQLc/hotel2.png",
+        link:"https://github.com/sarapapa-sp/Booking_App",
+    },
+    {
+        id:4,
+        img:"https://i.ibb.co/kcSnQLc/hotel2.png",
+        link:"https://github.com/sarapapa-sp/Booking_App",
+    },
+]
