@@ -1,6 +1,6 @@
 import "./product.css";
 
-const Product = () => {
+const Product = ({img,link}) => {
     return (
         <div className="product">
             <div className="product-browser">
@@ -8,8 +8,12 @@ const Product = () => {
                 <div className="p-circle"></div>
                 <div className="p-circle"></div>
             </div>
-            <a href="https://github.com" target="_blank">
-                <img src="" alt=""/>
+            <a href={link} target="_blank">
+                <img
+                    className="product-image"
+                    src={img}
+                    alt="project"
+                />
             </a>
         </div>
     );
