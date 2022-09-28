@@ -1,5 +1,6 @@
 import Intro from "./Components/intro/Intro";
 import About from "./Components/about/About";
+import ProductList from "./Components/productList/ProductList";
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Intro />
         <About />
+        <ProductList />
     </div>
   );
 }
