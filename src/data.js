@@ -1,7 +1,7 @@
 export const products = [
     {
         id:1,
-        img:"https://i.ibb.co/kcSnQLc/hotel2.png",
+        img:"https://i.ibb.co/7QLx8df/hotelbooking.png",
         link:"https://github.com/sarapapa-sp/Booking_App",
     },
     {
