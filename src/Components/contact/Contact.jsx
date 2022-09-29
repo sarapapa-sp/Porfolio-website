@@ -2,12 +2,25 @@ import "./contact.css";
 import Phone from "../../img/phone.png"
 import Email from "../../img/email.png"
 import Address from "../../img/address.png"
-import {useRef} from "react";
+import {useRef, useState} from "react";
+// import emailjs from '@emailjs/browser';
+import emailjs from "emailjs-com"
 const Contact = () => {
     const formRef = useRef();
+    const [done , setDone] = useState()
     const handleSubmit = (e) => {
         e.preventDefault()
+        emailjs.sendForm('service_c2olu9u',
+            'template_k6omo14',
+            formRef.current,
+            'LUrnZyBcoFVKor5PC'
+        )
+            .then((result) => {
+                console.log(result.text);
 
+            }, (error) => {
+                console.log(error.text);
+            });
     }
     return (
         <div className="contact">
